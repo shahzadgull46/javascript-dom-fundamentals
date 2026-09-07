@@ -19,11 +19,10 @@ HTML, CSS, JavaScript (vanilla, no frameworks or build tools)
 
 ## 🚀 Live Projects
 
-- **Color Switcher** — [Live Demo](#) — background color switcher using DOM events
-- **BMI Generator** — [Live Demo](#) — calculates BMI from user input
-- **Digital Clock** — [Live Demo](#) — real-time digital clock
-- **Guess the Number** — [Live Demo](#) — number guessing game
-
+- **Color Switcher** — [Live Demo](https://shahzadgull46.github.io/javascript-dom-fundamentals/Projects/project-1-color-switcher/) — background color switcher using DOM events
+- **BMI Generator** — [Live Demo](https://shahzadgull46.github.io/javascript-dom-fundamentals/Projects/project-2-bmi-generator/) — calculates BMI from user input
+- **Digital Clock** — [Live Demo](https://shahzadgull46.github.io/javascript-dom-fundamentals/Projects/project-3-digital-clock/) — real-time digital clock
+- **Guess the Number** — [Live Demo](https://shahzadgull46.github.io/javascript-dom-fundamentals/Projects/project-4-guess-number/) — number guessing game
 ## 👨‍💻 Author
 
 **Shahzad Ahmad Gull**
