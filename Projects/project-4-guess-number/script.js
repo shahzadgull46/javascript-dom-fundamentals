@@ -49,7 +49,7 @@ function endGame() {
   playGame = false;
 }
 function newGame() {
-  let secretNumber = Math.floor(Math.random() * 100) + 1;
+  secretNumber = Math.floor(Math.random() * 100) + 1;
   previousGuesses = [];
   numberOfGuesses = 0;
   playGame = true;
