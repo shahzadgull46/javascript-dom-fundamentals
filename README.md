@@ -1,6 +1,7 @@
 # JavaScript & DOM Fundamentals
 
-A collection of JavaScript fundamentals exercises — from variables and data types through DOM manipulation — along with 4 deployed vanilla JavaScript mini-projects.
+A structured JavaScript learning repository covering core fundamentals, DOM manipulation, asynchronous JavaScript, OOP, prototypes, promises, closures, and V8 concepts, along with 4 deployed vanilla JavaScript mini-projects.
+
 
 ## 📚 Topics Covered
 
@@ -12,7 +13,7 @@ A collection of JavaScript fundamentals exercises — from variables and data ty
 | `04-controlflow` | Conditionals and control flow |
 | `05-iterations` | Loops, higher-order functions, map/filter/reduce |
 | `06-dom` | DOM manipulation — editing and removing elements |
-
+| `07-advance-JS` | Events, execution context, async JavaScript, Promises, API requests, OOP, prototypes, closures, getters/setters, static methods, and V8/array internals |
 ## 🛠️ Tech Stack
 
 HTML, CSS, JavaScript (vanilla, no frameworks or build tools)
