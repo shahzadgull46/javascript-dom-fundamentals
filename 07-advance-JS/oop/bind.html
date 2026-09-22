@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bind</title>
+  </head>
+  <body>
+    <button>Click to start</button>
+  </body>
+  <script>
+    class ReactApp {
+      constructor() {
+        this.server = "https/localhost:8000";
+        this.handleclick = this.handleclick.bind(this)
+        document
+          .querySelector("button")
+          .addEventListener("click", this.handleclick);
+      }
+      handleclick() {
+        console.log(this)
+        console.log(`connnecting to ${this.server}`);
+      }
+    }
+    new ReactApp
+  </script>
+</html>

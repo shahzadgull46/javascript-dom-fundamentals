@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closure</title>
+</head>
+<body>
+    <button id="orange">orange</button>
+    <button id="green">green</button>
+</body>
+<script>
+
+// function paintOrange() {
+//   document.body.style.backgroundColor = "orange";
+// }
+
+// document.getElementById('orange').onclick = paintOrange(); // ❌ has ()
+
+
+    function clickHandler(color) {
+  console.log("Step A: clickHandler ran, color =", color);
+  
+  return function() {
+    console.log("Step B: button was actually clicked, painting", color);
+    document.body.style.backgroundColor = color;
+  };
+}
+
+document.getElementById('orange').onclick = clickHandler('orange');
+document.getElementById('green').onclick = clickHandler('green');
+console.log("Step C: page finished loading");
+</script>
+</html>
